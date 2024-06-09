@@ -6,7 +6,7 @@ import javafx.scene.layout.VBox;
 public class SectionInformation {
 
 	public VBox obtener_seccion_informacion() {
-		VBox vbox = new VBox(5);
+		VBox vbox = new VBox(25);
 
 		Label txt_buttom = new Label("Buttom: ");
 		Label txt_checkBox = new Label("ChecBox: ");

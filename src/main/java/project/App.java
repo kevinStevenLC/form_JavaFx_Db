@@ -24,7 +24,7 @@ public class App extends Application {
         SectionElements seccion_elem = new SectionElements();
 
         // Hbox
-        HBox contenedor_secciones = new HBox(10);
+        HBox contenedor_secciones = new HBox(5);
         contenedor_secciones.setPrefSize(600, 540);
 
         // 2 VBox
