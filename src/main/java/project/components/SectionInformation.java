@@ -6,7 +6,7 @@ import javafx.scene.layout.VBox;
 public class SectionInformation {
 
 	public VBox obtener_seccion_informacion() {
-		VBox vbox = new VBox();
+		VBox vbox = new VBox(5);
 
 		Label txt_buttom = new Label("Buttom: ");
 		Label txt_checkBox = new Label("ChecBox: ");
@@ -20,7 +20,7 @@ public class SectionInformation {
 		Label txt_progressBar = new Label("ProgressBar: ");
 		Label txt_slider = new Label("Slider: ");
 
-		vbox.getChildren().addAll(txt_buttom, txt_checkBox, txt_hyperLink, txt_radioButtom, txt_buttom,
+		vbox.getChildren().addAll(txt_buttom, txt_checkBox, txt_hyperLink, txt_radioButtom,
 				txt_Label, txt_textField, txt_passwordFIeld, txt_textArea, txt_progressBar, txt_progressIndicator, txt_slider);
 
 		return vbox;
