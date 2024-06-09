@@ -3,10 +3,8 @@ package project;
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import project.components.SectionElements;
@@ -48,7 +46,10 @@ public class App extends Application {
         AnchorPane.setRightAnchor(contenedor_secciones, 5.0);
         AnchorPane.setBottomAnchor(contenedor_secciones, 5.0);
 
+        // trayendo hoja de estilo
         scene.getStylesheets().addAll(getClass().getResource("/css/main.css").toExternalForm());
+
+        // Mostrar escena
         stage.setScene(scene);
         stage.show();
     }
